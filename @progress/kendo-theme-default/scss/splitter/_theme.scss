@@ -1,0 +1,41 @@
+@include exports("splitter/theme") {
+
+    $splitter-text: $widget-text;
+
+    .k-splitter {
+        background-clip: padding-box;
+
+        .k-ie11 &,
+        .k-edge12 &,
+        .k-edge13 & {
+            background-clip: border-box;
+        }
+    }
+
+    // Splitbar
+    .k-splitbar {
+        @include appearance( button );
+        background-clip: padding-box;
+
+        .k-ie11 &,
+        .k-edge12 &,
+        .k-edge13 & {
+            background-clip: border-box;
+        }
+
+        &:active,
+        &.k-state-focused {
+            color: $selected-text;
+            background: $selected-bg;
+        }
+    }
+    .k-splitbar-horizontal-hover,
+    .k-splitbar-vertical-hover {
+        @include appearance( hovered-button );
+    }
+
+    .k-ghost-splitbar {
+        @include appearance( hovered-button );
+    }
+
+}

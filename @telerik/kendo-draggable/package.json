@@ -1,0 +1,126 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@telerik/kendo-draggable@^1.2.0",
+        "scope": "@telerik",
+        "escapedName": "@telerik%2fkendo-draggable",
+        "name": "@telerik/kendo-draggable",
+        "rawSpec": "^1.2.0",
+        "spec": ">=1.2.0 <2.0.0",
+        "type": "range"
+      },
+      "C:\\WorkSpace\\WTW.RAPID.V2\\WTW.RAPID.WEB.UI\\node_modules\\@progress\\kendo-angular-grid"
+    ]
+  ],
+  "_from": "@telerik/kendo-draggable@>=1.2.0 <2.0.0",
+  "_id": "@telerik/kendo-draggable@1.5.1",
+  "_inCache": true,
+  "_location": "/@telerik/kendo-draggable",
+  "_nodeVersion": "4.6.2",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/kendo-draggable-1.5.1.tgz_1480125240190_0.9217474018223584"
+  },
+  "_npmUser": {
+    "name": "telerik",
+    "email": "npm@telerik.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@telerik/kendo-draggable@^1.2.0",
+    "scope": "@telerik",
+    "escapedName": "@telerik%2fkendo-draggable",
+    "name": "@telerik/kendo-draggable",
+    "rawSpec": "^1.2.0",
+    "spec": ">=1.2.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/@progress/kendo-angular-grid",
+    "/@progress/kendo-angular-inputs"
+  ],
+  "_resolved": "https://registry.npmjs.org/@telerik/kendo-draggable/-/kendo-draggable-1.5.1.tgz",
+  "_shasum": "b809fe0ca80cb2ab368623cc5cb10d1f4560682b",
+  "_shrinkwrap": null,
+  "_spec": "@telerik/kendo-draggable@^1.2.0",
+  "_where": "C:\\WorkSpace\\WTW.RAPID.V2\\WTW.RAPID.WEB.UI\\node_modules\\@progress\\kendo-angular-grid",
+  "author": {
+    "name": "Telerik"
+  },
+  "bugs": {
+    "url": "https://github.com/telerik/kendo-draggable/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    },
+    "ghooks": {
+      "pre-commit": "npm run lint",
+      "commit-msg": "validate-commit-msg",
+      "pre-push": "npm run test"
+    },
+    "validate-commit-msg": {
+      "types": [
+        "feat",
+        "fix",
+        "docs",
+        "style",
+        "refactor",
+        "perf",
+        "test",
+        "chore",
+        "revert"
+      ],
+      "warnOnFail": false,
+      "maxSubjectLength": 100
+    }
+  },
+  "dependencies": {},
+  "description": "A cross-browser/event abstraction that handles mouse and touch drag sequences",
+  "devDependencies": {
+    "@telerik/eslint-config": "^1.0.0",
+    "@telerik/kendo-package-tasks": "^1.6.0",
+    "cz-conventional-changelog": "^1.1.5",
+    "ghooks": "^1.0.3",
+    "gulp": "3.9.0",
+    "semantic-release": "^4.3.5",
+    "validate-commit-msg": "^1.1.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "b809fe0ca80cb2ab368623cc5cb10d1f4560682b",
+    "tarball": "https://registry.npmjs.org/@telerik/kendo-draggable/-/kendo-draggable-1.5.1.tgz"
+  },
+  "gitHead": "57970662c6c871adeea850760d5d25e048fd57c1",
+  "homepage": "https://github.com/telerik/kendo-draggable#readme",
+  "jsnext:main": "dist/es/main.js",
+  "keywords": [
+    "Kendo UI"
+  ],
+  "license": "Apache-2.0",
+  "main": "dist/npm/main.js",
+  "maintainers": [
+    {
+      "name": "telerik",
+      "email": "npm@telerik.com"
+    }
+  ],
+  "module": "dist/es/main.js",
+  "name": "@telerik/kendo-draggable",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telerik/kendo-draggable.git"
+  },
+  "scripts": {
+    "build-package": "gulp build-rollup-package",
+    "lint": "gulp lint",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "test": "gulp e2e"
+  },
+  "typings": "dist/es/main",
+  "version": "1.5.1"
+}

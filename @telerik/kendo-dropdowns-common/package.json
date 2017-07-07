@@ -1,0 +1,133 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@telerik/kendo-dropdowns-common@^1.0.0",
+        "scope": "@telerik",
+        "escapedName": "@telerik%2fkendo-dropdowns-common",
+        "name": "@telerik/kendo-dropdowns-common",
+        "rawSpec": "^1.0.0",
+        "spec": ">=1.0.0 <2.0.0",
+        "type": "range"
+      },
+      "C:\\WorkSpace\\WTW.RAPID.V2\\WTW.RAPID.WEB.UI\\node_modules\\@progress\\kendo-angular-dropdowns"
+    ]
+  ],
+  "_from": "@telerik/kendo-dropdowns-common@>=1.0.0 <2.0.0",
+  "_id": "@telerik/kendo-dropdowns-common@1.0.0",
+  "_inCache": true,
+  "_location": "/@telerik/kendo-dropdowns-common",
+  "_nodeVersion": "6.10.1",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/kendo-dropdowns-common-1.0.0.tgz_1493893298170_0.4788910795468837"
+  },
+  "_npmUser": {
+    "name": "telerik",
+    "email": "npm@telerik.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@telerik/kendo-dropdowns-common@^1.0.0",
+    "scope": "@telerik",
+    "escapedName": "@telerik%2fkendo-dropdowns-common",
+    "name": "@telerik/kendo-dropdowns-common",
+    "rawSpec": "^1.0.0",
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/@progress/kendo-angular-dropdowns"
+  ],
+  "_resolved": "https://registry.npmjs.org/@telerik/kendo-dropdowns-common/-/kendo-dropdowns-common-1.0.0.tgz",
+  "_shasum": "a0b58697cc5cf7918a958ab97dddaa57f8cc4252",
+  "_shrinkwrap": null,
+  "_spec": "@telerik/kendo-dropdowns-common@^1.0.0",
+  "_where": "C:\\WorkSpace\\WTW.RAPID.V2\\WTW.RAPID.WEB.UI\\node_modules\\@progress\\kendo-angular-dropdowns",
+  "author": {
+    "name": "Telerik"
+  },
+  "bugs": {
+    "url": "https://github.com/telerik/kendo-dropdowns-common/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    },
+    "ghooks": {
+      "pre-commit": "npm run lint",
+      "commit-msg": "validate-commit-msg",
+      "pre-push": "npm run test"
+    },
+    "validate-commit-msg": {
+      "types": [
+        "feat",
+        "fix",
+        "docs",
+        "style",
+        "refactor",
+        "perf",
+        "test",
+        "chore",
+        "revert"
+      ],
+      "warnOnFail": false,
+      "maxSubjectLength": 100
+    }
+  },
+  "dependencies": {},
+  "description": "Kendo UI DropDowns common package",
+  "devDependencies": {
+    "@krux/condition-jenkins": "1.0.1",
+    "@telerik/eslint-config": "^1.0.0",
+    "@telerik/kendo-package-tasks": "^1.0.0",
+    "cz-conventional-changelog": "^1.1.5",
+    "ghooks": "^1.0.3",
+    "gulp": "3.9.0",
+    "semantic-release": "^4.3.5",
+    "validate-commit-msg": "^1.1.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "a0b58697cc5cf7918a958ab97dddaa57f8cc4252",
+    "tarball": "https://registry.npmjs.org/@telerik/kendo-dropdowns-common/-/kendo-dropdowns-common-1.0.0.tgz"
+  },
+  "gitHead": "e37d5a2a5c5a4438b1ed446f667e04460c7a0636",
+  "homepage": "https://github.com/telerik/kendo-dropdowns-common#readme",
+  "jsnext:main": "dist/es/main.js",
+  "keywords": [
+    "Kendo UI"
+  ],
+  "license": "Apache-2.0",
+  "main": "dist/npm/main.js",
+  "maintainers": [
+    {
+      "name": "telerik",
+      "email": "npm@telerik.com"
+    }
+  ],
+  "module": "dist/es/main.js",
+  "name": "@telerik/kendo-dropdowns-common",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "release": {
+    "branch": "master",
+    "debug": false,
+    "verifyConditions": {
+      "path": "./node_modules/@krux/condition-jenkins"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telerik/kendo-dropdowns-common.git"
+  },
+  "scripts": {
+    "build-package": "gulp build-rollup-package",
+    "lint": "gulp lint",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post",
+    "test": "gulp test"
+  },
+  "typings": "dist/es/main",
+  "version": "1.0.0"
+}

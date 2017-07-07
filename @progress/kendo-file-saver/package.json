@@ -1,0 +1,148 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "@progress/kendo-file-saver@^1.0.0",
+        "scope": "@progress",
+        "escapedName": "@progress%2fkendo-file-saver",
+        "name": "@progress/kendo-file-saver",
+        "rawSpec": "^1.0.0",
+        "spec": ">=1.0.0 <2.0.0",
+        "type": "range"
+      },
+      "C:\\WorkSpace\\WTW.RAPID.V2\\WTW.RAPID.WEB.UI\\node_modules\\@progress\\kendo-angular-excel-export"
+    ]
+  ],
+  "_from": "@progress/kendo-file-saver@>=1.0.0 <2.0.0",
+  "_id": "@progress/kendo-file-saver@1.0.2",
+  "_inCache": true,
+  "_location": "/@progress/kendo-file-saver",
+  "_nodeVersion": "6.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/kendo-file-saver-1.0.2.tgz_1498649465768_0.8093533515930176"
+  },
+  "_npmUser": {
+    "name": "progress",
+    "email": "npm@progress.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@progress/kendo-file-saver@^1.0.0",
+    "scope": "@progress",
+    "escapedName": "@progress%2fkendo-file-saver",
+    "name": "@progress/kendo-file-saver",
+    "rawSpec": "^1.0.0",
+    "spec": ">=1.0.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/@progress/kendo-angular-excel-export",
+    "/@progress/kendo-angular-grid"
+  ],
+  "_resolved": "https://registry.npmjs.org/@progress/kendo-file-saver/-/kendo-file-saver-1.0.2.tgz",
+  "_shasum": "e579d4eb30130160919db4a1281e04f043389585",
+  "_shrinkwrap": null,
+  "_spec": "@progress/kendo-file-saver@^1.0.0",
+  "_where": "C:\\WorkSpace\\WTW.RAPID.V2\\WTW.RAPID.WEB.UI\\node_modules\\@progress\\kendo-angular-excel-export",
+  "author": {
+    "name": "Telerik"
+  },
+  "bugs": {
+    "url": "https://github.com/telerik/kendo-file-saver/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    },
+    "ghooks": {
+      "commit-msg": "validate-commit-msg"
+    },
+    "validate-commit-msg": {
+      "types": [
+        "feat",
+        "fix",
+        "docs",
+        "style",
+        "refactor",
+        "perf",
+        "test",
+        "chore",
+        "revert"
+      ],
+      "warnOnFail": false,
+      "maxSubjectLength": 100
+    }
+  },
+  "dependencies": {},
+  "description": "Kendo UI File Saving Helper",
+  "devDependencies": {
+    "@krux/condition-jenkins": "1.0.1",
+    "@telerik/eslint-config": "^1.0.0",
+    "@telerik/kendo-package-tasks": "^1.6.1",
+    "@telerik/semantic-prerelease": "^1.0.0",
+    "@types/jasmine": "2.5.38",
+    "cz-conventional-changelog": "^1.1.5",
+    "ghooks": "^1.0.3",
+    "gulp": "3.9.0",
+    "semantic-release": "^6.3.6",
+    "validate-commit-msg": "^1.1.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "e579d4eb30130160919db4a1281e04f043389585",
+    "tarball": "https://registry.npmjs.org/@progress/kendo-file-saver/-/kendo-file-saver-1.0.2.tgz"
+  },
+  "homepage": "https://github.com/telerik/kendo-file-saver#readme",
+  "jsnext:main": "dist/es/main.js",
+  "keywords": [
+    "Kendo UI",
+    "Save",
+    "SaveAs",
+    "Saving",
+    "File Saver"
+  ],
+  "license": "Apache-2.0",
+  "main": "dist/npm/main.js",
+  "maintainers": [
+    {
+      "name": "progress",
+      "email": "npm@progress.com"
+    }
+  ],
+  "module": "dist/es/main.js",
+  "name": "@progress/kendo-file-saver",
+  "optionalDependencies": {},
+  "publishConfig": {
+    "registry": "https://registry.npm.telerik.com"
+  },
+  "readme": "ERROR: No README data found!",
+  "release": {
+    "debug": false,
+    "branchTags": {
+      "develop": "dev"
+    },
+    "fallbackTags": {
+      "dev": "latest"
+    },
+    "analyzeCommits": "@telerik/semantic-prerelease/analyzeCommits",
+    "generateNotes": "@telerik/semantic-prerelease/generateNotes",
+    "getLastRelease": "@telerik/semantic-prerelease/getLastRelease",
+    "verifyConditions": "@telerik/semantic-prerelease/verifyConditions",
+    "verifyRelease": "@telerik/semantic-prerelease/verifyRelease"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telerik/kendo-file-saver.git"
+  },
+  "scripts": {
+    "build-cdn": "gulp build-cdn",
+    "build-package": "gulp build-module",
+    "lint": "gulp lint",
+    "semantic-release": "semantic-release pre && semantic-prerelease publish && semantic-release post",
+    "test": "gulp test"
+  },
+  "typings": "dist/es/main",
+  "version": "1.0.2"
+}

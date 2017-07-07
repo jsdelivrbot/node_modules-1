@@ -1,0 +1,154 @@
+{
+  "@progress": {
+    "friendlyName": "DataQuery"
+  },
+  "_args": [
+    [
+      {
+        "raw": "@progress/kendo-data-query@^1.0.5",
+        "scope": "@progress",
+        "escapedName": "@progress%2fkendo-data-query",
+        "name": "@progress/kendo-data-query",
+        "rawSpec": "^1.0.5",
+        "spec": ">=1.0.5 <2.0.0",
+        "type": "range"
+      },
+      "C:\\WorkSpace\\WTW.RAPID.V2\\WTW.RAPID.WEB.UI"
+    ]
+  ],
+  "_from": "@progress/kendo-data-query@>=1.0.5 <2.0.0",
+  "_id": "@progress/kendo-data-query@1.0.5",
+  "_inCache": true,
+  "_location": "/@progress/kendo-data-query",
+  "_nodeVersion": "6.11.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/kendo-data-query-1.0.5.tgz_1498649102360_0.0072617558762431145"
+  },
+  "_npmUser": {
+    "name": "progress",
+    "email": "npm@progress.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "@progress/kendo-data-query@^1.0.5",
+    "scope": "@progress",
+    "escapedName": "@progress%2fkendo-data-query",
+    "name": "@progress/kendo-data-query",
+    "rawSpec": "^1.0.5",
+    "spec": ">=1.0.5 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@progress/kendo-data-query/-/kendo-data-query-1.0.5.tgz",
+  "_shasum": "f91bf8a4b08fa280b4eba8c7f2e4e0037dc69844",
+  "_shrinkwrap": null,
+  "_spec": "@progress/kendo-data-query@^1.0.5",
+  "_where": "C:\\WorkSpace\\WTW.RAPID.V2\\WTW.RAPID.WEB.UI",
+  "author": {
+    "name": "Progress"
+  },
+  "bugs": {
+    "url": "https://github.com/telerik/kendo-data-query/issues"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    },
+    "ghooks": {
+      "commit-msg": "validate-commit-msg"
+    },
+    "validate-commit-msg": {
+      "types": [
+        "feat",
+        "fix",
+        "docs",
+        "style",
+        "refactor",
+        "perf",
+        "test",
+        "chore",
+        "revert"
+      ],
+      "warnOnFail": false,
+      "maxSubjectLength": 100
+    }
+  },
+  "dependencies": {},
+  "description": "Kendo UI data query helpers",
+  "devDependencies": {
+    "@krux/condition-jenkins": "1.0.1",
+    "@progress/kendo-typescript-tasks": "^2.0.0",
+    "@telerik/semantic-prerelease": "^1.0.0",
+    "@types/core-js": "0.9.35",
+    "@types/jasmine": "2.2.34",
+    "colors": "^1.1.2",
+    "core-js": "^2.2.2",
+    "cz-conventional-changelog": "^1.1.5",
+    "es6-promise": "^3.1.2",
+    "es6-shim": "^0.35.0",
+    "es7-reflect-metadata": "^1.6.0",
+    "ghooks": "^1.0.3",
+    "gulp": "^3.9.0",
+    "semantic-release": "^6.3.6",
+    "typescript": "~2.0.3",
+    "validate-commit-msg": "^1.1.1"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "f91bf8a4b08fa280b4eba8c7f2e4e0037dc69844",
+    "tarball": "https://registry.npmjs.org/@progress/kendo-data-query/-/kendo-data-query-1.0.5.tgz"
+  },
+  "homepage": "https://github.com/telerik/kendo-data-query#readme",
+  "jsnext:main": "dist/es/main.js",
+  "keywords": [
+    "Kendo UI",
+    "Data Query"
+  ],
+  "license": "SEE LICENSE IN LICENSE.md",
+  "main": "dist/npm/main.js",
+  "maintainers": [
+    {
+      "name": "progress",
+      "email": "npm@progress.com"
+    }
+  ],
+  "module": "dist/es/main.js",
+  "name": "@progress/kendo-data-query",
+  "optionalDependencies": {},
+  "publishConfig": {
+    "registry": "https://registry.npm.telerik.com"
+  },
+  "readme": "ERROR: No README data found!",
+  "release": {
+    "debug": false,
+    "branchTags": {
+      "develop": "dev"
+    },
+    "fallbackTags": {
+      "dev": "latest"
+    },
+    "analyzeCommits": "@telerik/semantic-prerelease/analyzeCommits",
+    "generateNotes": "@telerik/semantic-prerelease/generateNotes",
+    "getLastRelease": "@telerik/semantic-prerelease/getLastRelease",
+    "verifyConditions": "@telerik/semantic-prerelease/verifyConditions",
+    "verifyRelease": "@telerik/semantic-prerelease/verifyRelease"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/telerik/kendo-data-query.git"
+  },
+  "scripts": {
+    "api-check": "gulp api-check",
+    "build-package": "gulp build-package",
+    "lint": "gulp lint",
+    "semantic-release": "semantic-release pre && semantic-prerelease publish && semantic-release post",
+    "start": "gulp start",
+    "test": "gulp test"
+  },
+  "typings": "dist/es/main",
+  "version": "1.0.5"
+}

@@ -1,0 +1,13 @@
+import { SliderComponent } from './slider/slider.component';
+import { SwitchComponent } from './switch/switch.component';
+import { NumericTextBoxComponent } from './numerictextbox/numerictextbox.component';
+import { NumericTextBoxCustomMessagesComponent } from './numerictextbox/localization/custom-messages.component';
+import { MaskedTextBoxComponent } from './maskedtextbox/maskedtextbox.component';
+import { InputsModule } from './inputs.module';
+export { KendoDraggableDirective } from './common/draggable';
+export { KendoSliderTicksComponent } from './slider/slider-ticks.component';
+import { SliderModule } from './slider.module';
+import { SwitchModule } from './switch.module';
+import { NumericTextBoxModule } from './numerictextbox.module';
+import { MaskedTextBoxModule } from './maskedtextbox.module';
+export { SliderComponent, SwitchComponent, NumericTextBoxComponent, NumericTextBoxCustomMessagesComponent, MaskedTextBoxComponent, InputsModule, SliderModule, SwitchModule, NumericTextBoxModule, MaskedTextBoxModule };
